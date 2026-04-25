@@ -1,0 +1,8 @@
+# Guardando información en variables
+nombre = "Stalyn"
+edad = 20
+ciudad = "Huanuco"
+
+print("Nombre:", nombre)
+print("Edad:", edad)
+print("Ciudad:", ciudad)

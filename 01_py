@@ -1,0 +1,5 @@
+#Miprimer programa en python
+
+print("¡Hola mundo!")
+print("¡Mi nombre es Stalyn!")
+print("Estoy aprendiendo python")

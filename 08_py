@@ -1,0 +1,19 @@
+# Calcular promedio y aprobar/reprobar
+print("=== REGISTRO DE NOTAS ===")
+nombre = input("Nombre del estudiante: ")
+
+nota1 = float(input("Nota 1: "))
+nota2 = float(input("Nota 2: "))
+nota3 = float(input("Nota 3: "))
+
+promedio = (nota1 + nota2 + nota3) / 3
+
+print(f"\n📋 Estudiante: {nombre}")
+print(f"📊 Promedio: {promedio:.2f}")
+
+if promedio >= 11:
+    print("✅ Estado: APROBADO")
+elif promedio >= 8:
+    print("⚠️  Estado: RECUPERACIÓN")
+else:
+    print("❌ Estado: DESAPROBADO")
